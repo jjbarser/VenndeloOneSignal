@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Venndelo App</title>
+    <link rel="stylesheet" href="./style.css" >
+    <script src="wvplugins-web.js"></script>
+    <script src="./shared/utils-picture.js"></script>
+
+    
+</head>
+
+<body>
+    <p style="font-size: 38px">Funcionalidades</p>
+    <div>
+        <button onclick="wvPlugins.getPicture(options= {source: 'gallery'})">Obtener Imagen desde <strong>Galería</strong></button>
+        <button onclick="wvPlugins.getPicture(options= {source: 'camera'})">Obtener Imagen desde <strong>Cámara</strong></button>
+        <button onclick="wvPlugins.getCurrentPosition()">Probar obtener <strong>Ubicación</strong></button>
+       <!--  <button onclick="wvPlugins.shareOnSocialNetworks('facebook')">Probar Compartir en <strong>Facebook</strong></button>
+        <button onclick="wvPlugins.shareOnSocialNetworks('twitter')">Probar Compartir en <strong>Twitter</strong></button>
+        <button onclick="wvPlugins.shareOnSocialNetworks('whatsapp')">Probar Compartir en <strong>WhatsApp</strong></button>
+        <button onclick="wvPlugins.shareOnSocialNetworks('others')">Probar Compartir en <strong>Otros</strong></button>
+        <button onclick="wvPlugins.getNotifications('on')">Activar <strong>Notificaciones</strong> con OneSignal</button> -->
+        <!--<input type="file" onchange="loadFile(e)"><br> -->
+        <!-- <button onclick="testNotifications('off')">Desactivar <strong>Notificaciones</strong> con OneSignal</button> -->
+<!--         <button onclick="testPostMessage()">Probar comunicación con <strong>Webview</strong></button> -->
+    </div>
+    </div>
+</body>
+
+</html>
